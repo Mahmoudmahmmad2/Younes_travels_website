@@ -1,14 +1,14 @@
 /* ===== YOUNES TRAVELS WEBSITE - MAIN STYLESHEET ===== */
 
 /* ===== GOOGLE FONTS IMPORT ===== */
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ===== GLOBAL RESET & BASE STYLES ===== */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
     scroll-behavior: smooth;
