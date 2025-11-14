@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Частный тур по Луксору|Younes Tours</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-page">
+            <div class="text_title">
+                 <h1><span>Частный тур по Луксору:</span> Гибкие древние храмы, Долина царей и цариц с личным египтологом</h1>
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>эксклюзивный</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span> <!-- خامسة غير ملونة -->
+                    </div>
+                    <div class="rating">
+                        <h2>4.2</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>5 отзывов</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик услуг: Частные туры в Египет, Луксор</h2>
+                </div>
+            </div>
+
+            <!-- ===== МАКЕТ ИЗОБРАЖЕНИЯ С МОДАЛЬНЫМ ===== -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/large_Templo_funerario_de_Hatshepsut.webp', 'Hatshepsut Funerary Temple')">
+                        <img src="./../../New_Imgs/large_Templo_funerario_de_Hatshepsut.webp" alt="Погребальный храм Хатшепсут" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/whatsapp-image-2019-8-at-948.jpg', 'Luxor Scenic View')">
+                        <img src="./../../New_Imgs/whatsapp-image-2019-8-at-948.jpg" alt="Луксор, живописный вид" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../New_Imgs/gettyimages-103210945.avif" alt="Гробница царицы Нефертари – лучше всего сохранившиеся цвета" onclick="openLightbox('image', './../../New_Imgs/gettyimages-103210945.avif', 'Tomb of Queen Nefertari - Best Preserved Colors')" id="img_three">
+                        <img src="./../../New_Imgs/172001.jpg" alt="Традиционный парусник Фелукка на Ниле" onclick="openLightbox('image', './../../New_Imgs/172001.jpg', 'Traditional Felucca Sailboat on the Nile')" id="img_four">
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== МОДАЛЬНЫЙ ЛАЙТБОКС ===== -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <div class="about">
+                <h4>Наслаждайтесь гибким частным туром по Луксору с современным автомобилем и личным гидом — выбирайте храмы, долины и график в соответствии со своими предпочтениями с премиальным обслуживанием в течение дня.</h4>
+            </div>
+
+            <div class="price-box">
+                <div class="price">
+                    <h2>Цена</h2>
+                    <h2>на</h2>
+                    <h2>бронирование</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>"Prices may vary — for the best offers, contact us directly on WhatsApp or email."</span>
+                     </h3>
+                </div>
+            </div>
+
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>
+Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span>16-часовой полный день</span><br>Отправление в 5:00 – возвращение в 21:00.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-user-tie"></i>
+                        <h3><span>Персональный гид египтолога</span><br>С тобой весь путь</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Роскошный частный автомобиль</span><br>Кондиционер, современный, опытный водитель</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Индивидуальный тур по Луксору:</span> Гибкие древние храмы, Долина царей и цариц с личным египтологом</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>16 часов</h3></div>  
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Луксор, 400 км от Хургады</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>время начала вашей поездки </h1>
+                        <h2 id="time">5:00 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>280$</h2>
+                            <h3 id="members"><span id="adult-count">2</span> взрослых и <span id="young-count">0</span> детей</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="details">
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Выделять</div>
+                        <div class="info">
+                            <ul>
+                                <li>Эксклюзивный частный транспорт на современном роскошном автомобиле с кондиционером и профессиональным водителем.</li>
+                                <li>Ранний выезд в 5:00 с гарантированным возвращением к 21:00 — максимально увеличьте время осмотра достопримечательностей.</li>
+                                <li>Персональный гид по египтологии будет сопровождать вас на протяжении всего 16-часового путешествия.</li>
+                                <li>Полная гибкость в выборе храмов, гробниц и мест в соответствии с вашими интересами.</li>
+                                <li>Выберите «Долину царей», «Долину цариц» или посетите оба королевских захоронения.</li>
+                                <li>Добавьте премиум-сайты: гробницу Нефертари, Мединет-Хабу, Рамессеум, Дейр-эль-Медина или поездку на фелюге.</li>
+                                <li>Увеличенное время для фотографирования, исследования и углубленного изучения каждого объекта.</li>
+                                <li>Личный выбор ресторана для обеда — с видом на Нил, сад или местная кухня.</li>
+                                <li>Персонализированное обслуживание премиум-класса с помощью при покупке, корректировкой маршрута и круглосуточной поддержкой.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail" style="width: 100%;">
+                    <div class="content" style="width: 100%;">
+                        <div class="dtitle" style="font-size: 18px;">Гибкие возможности Royal Valley</div>
+                        <div class="info" style="width: 74%;display: flex;gap: 15px;font-size: 14px;
+                        ">
+                            <p style="width:700px;"><strong>Вариант 1: <br> Только Долина царей</strong><br>
+Посетите 3–4 гробницы фараонов с изысканными украшениями. Больше времени для фотографий и подробного изучения практики мужских королевских захоронений.</p>
+
+                            <p style="width: 700px;"><strong>Вариант 2: <br> Только Долина Королев</strong><br>
+Исследуйте гробницы королев и принцев с исключительной сохранностью произведений искусства. Более тихий и интимный доступ с яркими цветами.</p>
+
+                            <p style="width: 700px;"><strong>Вариант 3: <br> Обе долины (самый полный)</strong><br>
+Посетите обе долины (по 2–3 гробницы в каждой). Сравните дизайн, искусство и символику мужских и женских гробниц.</p>
+
+                            <p style="width: 700px;"><strong>Примечание:</strong> Вход в Долину Царей на 20 евро на человека дороже, чем в Долину Царей. Комиссия оплачивается отдельно.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail done">
+                    <div class="content">
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Наслаждайтесь полностью персонализированным и эксклюзивным отдыхом, разработанным специально для вас и ваших спутников в столице древнего Египта — Луксоре.</li>
+                                <li>Ваше частное приключение начнется в 5:00 утра от вашего отеля в Хургаде с современным роскошным автомобилем, профессиональным водителем и преданным гидом по египтологии, который останется с вами на протяжении всего 16-часового путешествия.</li>
+                                <li>Живописная 4-часовая поездка включает в себя дополнительные остановки, где можно перекусить и посетить туалет.</li>
+                                <li>По прибытии у вас есть полная свобода составить маршрут в соответствии с вашими интересами.</li>
+                                <li>Стандартные места: Карнакский храм, Луксорский храм, Храм царицы Хатшепсут, Колоссы Мемнона.</li>
+                                <li>Выберите гробницу Нефертари, Мединет-Хабу, Рамессеум, Дейр-эль-Медина, гробницы знати или поездку на фелюге.</li>
+                                <li>Вы можете пропустить любой сайт, чтобы проводить больше времени на избранных.</li>
+                                <li>Ваш гид предоставляет подробный исторический контекст и помогает вам выбрать лучшие варианты долины.</li>
+                                <li>Выберите предпочитаемый ресторан для обеда — с видом на Нил, в саду или на местном рынке.</li>
+                                <li>Вернитесь в Хургаду ровно в 21:00 после целого дня чудес, открытий и древней истории.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Частный современный автомобиль с кондиционером и опытным водителем</li>
+                                <li>Водитель со стажем более 10 лет в сфере туризма и археологии.</li>
+                                <li>Персональный гид по египтологии (5:00 – 21:00)</li>
+                                <li>Все расходы на топливо, дорожные сборы и парковку</li>
+                                <li>Гибкая корректировка маршрута во время тура</li>
+                                <li>Бесплатная консультация по выбору лучших вариантов долины</li>
+                                <li>Круглосуточная поддержка клиентов и экстренная связь</li>
+                                <li>Помощь в покупках и помощь в переговорах о цене</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Плата за вход в храм, гробницу и музей (оплачивается отдельно)</li>
+                                <li>Долина царей (на 10 евро больше, чем в Квинсе)</li>
+                                <li>Входные билеты в знаменитые королевские гробницы.</li>
+                                <li>Все блюда и напитки</li>
+                                <li>Стоимость фотосъемки внутри гробниц</li>
+                                <li>Аттракционы на фелуке, конные экипажи, воздушные шары.</li>
+                                <li>Персональные покупки и сувениры</li>
+                                <li>Чаевые водителю и гиду (по желанию)</li>
+                                <li>«Дополнительные посещения, не включенные в поездку, могут повлиять на основную цену (увеличиться или уменьшиться)».</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Действительный паспорт или удостоверение личности</li>
+                                <li>Легкая, скромная одежда из хлопка (без шорт и без рукавов).</li>
+                                <li>Камера с дополнительными батареями и памятью</li>
+                                <li>Солнцезащитный крем SPF 50+, широкополая шляпа.</li>
+                                <li>Наличные (EGP, USD, EUR для комиссий)</li>
+                                <li>4–5 литров воды на человека (обязательно)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Короткая или открытая одежда (не допускается на объектах)</li>
+                                <li>Тяжелые сумки (длительная ходьба)</li>
+                                <li>Скоропортящиеся продукты (автомобиль с кондиционером)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Будьте готовы к 4:45 утра к отправлению в 5:00 утра.</li>
+                                <li>Обсудите предпочтения с гидом, чтобы оптимизировать свой день.</li>
+                                <li>Возьмите с собой 4–5 литров воды — вода не предусмотрена.</li>
+                                <li>Носите одежду из светлого хлопка, чтобы избежать теплового удара.</li>
+                                <li>Наносите солнцезащитный крем повторно каждые 2 часа.</li>
+                                <li>Спросите своего гида о различиях в гробницах, чтобы сделать осознанный выбор.</li>
+                                <li>Возвращение ровно в 21:00 — соответственно планируйте отдых в отеле.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Доступны дополнительные сайты</div>
+                        <div class="info">
+                            <ul>
+                                <li><strong>Гробницы:</strong> Нефертари, Сети I, Рамсес VI</li>
+                                <li><strong>Храмы:</strong> Мединет Хабу, Рамессеум, Абидос</li>
+                                <li><strong>Сайты:</strong> Дейр-эль-Медина, гробницы дворян, звуковое и световое шоу</li>
+                                <li><strong>Культурный:</strong> Поездка на фелюге, фабрики папируса и алебастра</li>
+                                <li><strong>Шоппинг:</strong> Луксорский базар, Телевизионная улица</li>
+                                <li><strong>Деятельность:</strong> Воздушный шар (предварительное бронирование)</li>
+                                <li><strong>Музеи:</strong> Луксорский музей, Музей мумификации</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Рекомендации по безопасности</div>
+                        <div class="info">
+                            <p><strong>ВАЖНО: возьмите с собой 4–5 литров воды на человека.</strong> Никакой воды не предоставляется, кроме одной бутылки на обед.</p>
+                            <p><strong>Риски для здоровья в жару:</strong> Головокружение, тошнота, сухость во рту, учащенное сердцебиение — немедленно сообщите об этом гиду.</p>
+                            <p><strong>Профилактика:</strong> Регулярно пейте воду, носите легкую одежду, наносите солнцезащитный крем, избегайте кофеина.</p>
+                            <p>Все туры включают комплексную страховку. Луксор является объектом Всемирного наследия ЮНЕСКО — уважайте местные законы и наследие.</p>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- ===== РАЗДЕЛ ОБЗОРЫ ===== -->
+            
+            <!-- ===== КОНЕЦ ОТЗЫВОВ ===== -->
+
+        </div>  
+        
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion">
+                    <div class="info">
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3> Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3> +201100077315</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> younesyours7@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>Пакеты туров в Египет</li>
+                            <li>культурные туры</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) choose = 0;
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function(e) {
+                if (!e.target.closest('.pop_up, .menu-style')) exit();
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+</div></body>
+</html>

@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./city.css">
+    <link rel="stylesheet" href="./overflow-fix.css">
+    <title>Обзорная экскурсия по Хургаде | Юнес Туры</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <!-- Заголовок и навигация -->
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <div class="menu">
+                    <div class="links">
+                        <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Мобильный заголовок -->
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link"><a href="../index.html">Направления</a></div>
+                    <div class="link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Плавающие значки контактов -->
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Верхний раздел -->
+        <div class="top-page">
+            <div class="text_title">
+                <h1><span>Обзорная экскурсия по Хургаде:</span> Полное культурное путешествие</h1> <!-- ИИ изменить -->
+            </div>
+            <div class="box" style="width: 1200px;">
+                <div class="type">
+                    <h1>Рекомендуется</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span> <!-- خامسة ملونة بالكامل -->
+                    </div>
+                    <div class="rating">
+                        <h2>4.8</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>3 отзыва</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик услуг: Исследование города Египет Хургада</h2> <!-- изменить название тура -->
+                </div>
+            </div>
+
+            <!-- Галерея изображений -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../city/city.jpeg', 'Hurghada Old Market - Traditional Bazaar')">
+                        <img src="./../../city/city.jpeg" alt="Старый рынок Хургады" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../city/1810534-رحلات-الأجانب-فى-الغردقة--(4).webp', 'Grand Marina Mosque - Sea View')">
+                        <img src="./../../city/1810534-%D8%B1%D8%AD%D9%84%D8%A7%D8%AA-%D8%A7%D9%84%D8%A3%D8%AC%D8%A7%D9%86%D8%A8-%D9%81%D9%89-%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9--(4).webp" alt="Мечеть Гранд Марина" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../city/%D9%85%D9%85%D8%B4%D9%89-%D9%85%D8%A7%D8%B1%D9%8A%D9%86%D8%A7-%D8%A7%D9%84%D8%BA%D8%B1%D8%AF%D9%82%D8%A9.jpg" alt="Традиционная парфюмерная фабрика" onclick="openLightbox('image', './../../city/ممشى-مارينا-الغردقة.jpg', 'Perfume Factory Workshop')" id="img_three">
+                        <img src="./../../city/301.jpg" alt="Яхты Хургада Марина" onclick="openLightbox('image', './../../city/301.jpg', 'Modern Hurghada Marina')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальный лайтбокс -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <!-- Введение из 25 слов -->
+            <div class="about">
+                <h4>Откройте для себя волшебное наследие и современное очарование Хургады — комплексный тур по традиционным рынкам, мечетям, современной пристани для яхт с дегустацией настоящей местной кухни.</h4> <!-- перейти на вступление -->
+            </div>
+
+            <!-- Прайс-бокс -->
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>15€</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span> забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <!-- Об этом билете -->
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отменить за 24 часа заранее</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>Гибкое бронирование без предоплаты</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span>Продолжительность</span><br>4 часа (гибкий график)</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-headphones"></i>
+                        <h3><span>Языки</span><br>английский, немецкий, русский</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Транспорт</span><br>Включен автомобиль с кондиционером</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Калькулятор стоимости -->
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Экскурсия по Хургаде:</span> Полное культурное путешествие</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>4 часа</h3></div>
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский, немецкий, русский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Центр Хургады и пристань для яхт</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>Время начала вашей поездки</h1>
+                        <h2 id="time">10 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>40$</h2>
+                            <h3 id="members"><span id="adult-count">1</span> взрослый и <span id="young-count">1</span> ребенок</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Подробный раздел -->
+            <div class="details">
+                <!-- Основные моменты -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы выделить -->
+                        <div class="dtitle">Основные моменты</div>
+                        <div class="info">
+                            <ul>
+                                <li>Экскурсия по базару традиционного наследия (Старая Хургада) и знаменитым рынкам специй</li>
+                                <li>Посещение старейшей коптской церкви Хургады (более 100 лет)</li>
+                                <li>Осмотр мечети Гранд Марина – самой известной мечети Хургады.</li>
+                                <li>Открытие традиционного рыболовного порта и опыт местного рыбного рынка</li>
+                                <li>Экскурсия по современной гавани Хургады с высококлассными кафе и ресторанами</li>
+                                <li>Исследуйте оживленную Шератон-стрит</li>
+                                <li>Время шоппинга в современных торговых центрах и магазинах беспошлинной торговли.</li>
+                                <li>Дополнительный традиционный египетский обед (дополнительная стоимость 7 евро)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Направления -->
+                    <!-- <div class="подробно">
+                        <div class="content">
+                            <div class="dtitle">Направления</div>
+                            <div класс="информация">
+                                <ул>
+                                    <li>Эль-Дахар (Старый город) <span>></span> Коптская церковь <span>></span> Мечеть пристани <span>></span> Рыбный порт <span>></span> Пристань</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </div> -->
+
+                <!-- Описание -->
+                <div class="detail done">
+                    <div class="content"> <!-- перейти к описанию -->
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Отправьтесь в удивительное исследовательское путешествие, которое проведет вас через историю и настоящее города Хургады — от древних кварталов до современной пристани для яхт с видом на Красное море.</li>
+                                <li>Этот тур специально разработан для любителей культуры, наследия и шопинга и доступен в любое время суток с 7:00 до 22:00 в соответствии с вашим графиком.</li>
+                                <li>Ваше культурное путешествие начинается с выезда из отеля на комфортабельном автомобиле с кондиционером в сопровождении специализированного гида, свободно владеющего немецким, русским и английским языками и знающего богатую историю Хургады.</li>
+                                <li>Ваша первая остановка будет в знаменитом историческом районе «Эль-Дахар» — бьющемся сердце Хургады, где кипит аутентичная народная жизнь.</li>
+                                <li>Вы прогуляетесь по традиционному популярному рынку, наполненному ароматными специями, настоящими египетскими приправами и традиционными изделиями ручной работы.</li>
+                                <li>Вы посетите старейшую коптскую церковь города, построенную более века назад, где узнаете об истории христианства в регионе и традиционных религиозных ритуалах.</li>
+                                <li>После этого вы отправитесь посетить мечеть Гранд-Марина — современный архитектурный шедевр, отражающий современный исламский характер, с очаровательным видом на море.</li>
+                                <li>Вы посетите традиционный рыбацкий порт и популярный рыбный рынок, наблюдая, как рыбаки продают свой свежий ежедневный улов знаменитой рыбы Красного моря.</li>
+                                <li>В современной пристани Хургады вы прогуляетесь по фешенебельной набережной среди роскошных яхт и элегантных кафе.</li>
+                                <li>Далее мы направляемся на Шератон-стрит, где вы сможете исследовать оживленные туристические базары и приобрести уникальные сувениры на память о своем путешествии.</li>
+                                <li>Завершите посещение бесплатными покупками в современных центрах и магазинах беспошлинной торговли.</li>
+                                <li>Дополнительный традиционный египетский обед может быть организован для получения полного аутентичного впечатления.</li>
+                                   <h5 style="font-weight: 500;font-size: 15px;">«Порядок маршрута может измениться».</h5>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Включено -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы включить -->
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансфер туда и обратно из всех отелей Хургады на автомобиле с кондиционером.</li>
+                                <li>Бесплатный транспорт из Эль-Гуны, Сахл-Хашиша, Макади-Бей и Сома-Бэй.</li>
+                                <li>Специализированный гид, говорящий на немецком, русском и английском языках.</li>
+                                <li>Посещение традиционного рынка наследия (Эль-Дахар) с подробным объяснением</li>
+                                <li>Вход в самую старую коптскую церковь в Хургаде.</li>
+                                <li>Посещение мечети Гранд Марина с видом на море.</li>
+                                <li>Традиционный рыбацкий порт и экскурсия по рыбному рынку</li>
+                                <li>Современная гавань Хургады и исследование набережной</li>
+                                <li>«Посетите Шератон-стрит»</li>
+                                <li>Время шоппинга в современных торговых центрах</li>
+                                <li>Комплексная туристическая страховка</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Не включено -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы не включать -->
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Транспорт из Сафаги и Марса Алама (за дополнительную плату)</li>
+                                <li>Личные покупки на рынках и в магазинах</li>
+                                <li>Дополнительный традиционный египетский обед (может быть организован за дополнительную плату)</li>
+                                <li>Вход в Большой Аквариум (по желанию)</li>
+                                <li>Профессиональные фотоуслуги</li>
+                                <li>Чаевые гиду и водителю</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Что взять с собой -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы принести -->
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Камера или телефон для фотосъемки исторических и современных объектов</li>
+                                <li>Удобная, скромная одежда для входа в религиозные места.</li>
+                                <li>Наличные для покупок и личных покупок (предпочтительно египетские фунты)</li>
+                                <li>Маленькая сумка для покупок на рынке.</li>
+                                <li>Солнцезащитные очки и шляпа для защиты от солнца</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Что не брать с собой -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы не приносить -->
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Крупные суммы денег или дорогие украшения.</li>
+                                <li>Большие и тяжелые сумки во время покупок</li>
+                                <li>Еда и напитки вне дома</li>
+                                <li>Неподходящая одежда для религиозных объектов</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Советы профессионалов -->
+                <div class="detail">
+                    <div class="content"> <!-- перейти на советы -->
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Будьте готовы выехать в назначенное время (гибкое время с 7:00 до 22:00).</li>
+                                <li>Уважайте местные традиции и обычаи в религиозных местах.</li>
+                                <li>Вежливо вести переговоры при совершении покупок на популярных рынках — часть опыта</li>
+                                <li>Попробуйте местные продукты на рынках, чтобы насладиться их подлинным вкусом.</li>
+                                <li>Спросите своего гида о лучших местах для покупок и подходящих ценах.</li>
+                                <li>Сохраняйте чеки о покупке для гарантии и возврата при необходимости.</li>
+                                <li>Наслаждайтесь общением с местными жителями — богатый культурный опыт</li>
+                                <li>Делайте фотографии на рынках, спросив разрешения у продавцов.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- Раздел отзывов -->
+            <!-- <div class="обзоры">
+                <div class="rtitle">
+                    <h1>Отзывы клиентов</h1>
+                    <p>Что говорят наши путешественники об этом культурном путешествии</p>
+                </div>
+                <div class="общий рейтинг">
+                    <div class="rating-summary">
+                        <div class="номер-рейтинга">
+                            <h2>4.7</h2>
+                            <span>/5</span>
+                        </div>
+                        <div class="рейтинг-звезды">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <div class="рейтинг-текст">
+                            <h3>Отлично</h3>
+                            <p>На основе более 85 отзывов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-cards" id="review-cards">
+                     Динамически загружается через JS. -->
+                <!-- </div>
+                <div class="load-more-container">
+                    <button class="load-more-btn" id="load-more-btn" onclick="loadMoreReviews()">
+                        <span class="btn-text">Дополнительные отзывы</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </кнопка>
+                </div>
+            </div>
+        </div> -->
+    <footer id="footer">
+                <div class="f-container">
+                    <div class="logo">
+                        <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="Логотип Юнес Турс">
+                       <div class="text">
+                            <h2>Юнес </h2>
+                            <h2>туры</h2>
+                       </div>
+                    </div>
+                    <div class="inforamtion">
+                        <div class="info">
+                            <div class="i_info">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <h3> Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                            </div>
+                            <div class="i_info">
+                                <i class="fa-solid fa-phone"></i>
+                                <h3> +20 110 007 7315</h3>
+                                <!-- <h3> +351 234 567 890</h3> -->
+                            </div>
+                            <div class="i_info">
+                                <i class="fa-solid fa-envelope"></i>
+                                <h3> younestours7@gmail.com</h3>
+                        </div>
+                        </div>
+                        <div class="info">
+                            <h1>страницы</h1>
+                            <ul>
+                                <li>Дом</li>
+                                <li>Услуги</li>
+                                <li>Галерея</li>
+                                <li>Отзывы</li>
+                                <li>О</li>
+                                <li>Контакт</li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <h1>Категории</h1>
+                            <ul>
+                                <li>Туры в Египет</li>
+                                <li>Пакеты туров в Египет</li>
+                                <li>прибрежные туры</li>
+                            </ul>
+                        </div>
+                        <div class="info">
+                            <h1>Подписывайтесь на нас</h1>
+                            <ul>
+                                <li><i class="fa-solid fa-share"></i></li>
+                                <li><i><i class="fa-brands fa-facebook"></i></i></li>
+                                <li><i><i class="fa-brands fa-instagram"></i></i></li>
+                                <li><i><i class="fa-brands fa-twitter"></i></i></li>
+
+                            </ul>
+                            <div class="copyright">
+                                <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+        <!-- Скрипты -->
+        <script>
+            const header = document.querySelector("header");
+            if (header) {
+                header.style.transition = "all 0.3s ease";
+                let choose = 0;
+                window.onscroll = function () {
+                    if (window.scrollY <= 400 && choose == 0) {
+                        header.style.backgroundColor = "#242424e3";
+                        header.style.position = "absolute";
+                    } else {
+                        choose = 1;
+                        header.style.backgroundColor = "#242424e3";
+                        header.style.position = "fixed";
+                        if (window.scrollY <= 10) choose = 0;
+                    }
+                };
+            }
+
+            function exit() {
+                document.getElementById('pop').style = "width: 0%; overflow:hidden";
+                document.getElementById('container').style = "filter:blur(0px);";
+                setTimeout(() => {
+                    document.getElementById('logo_menu').style = "display: none;";
+                    document.getElementById('links_menu').style = "display: none;";
+                }, 300);
+            }
+
+            function open_pop() {
+                document.getElementById('pop').style = "width:70%; overflow:show";
+                document.getElementById('container').style = "filter:blur(1px);";
+                setTimeout(() => {
+                    document.getElementById('logo_menu').style = "display: block;";
+                    document.getElementById('links_menu').style = "display: block;";
+                });
+
+                document.querySelector('body').addEventListener('click', function (e) {
+                    if (!e.target.closest('.pop_up') && !e.target.classList.contains('menu-style')) {
+                        exit();
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", function () { exit(); });
+            document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+        </script>
+        <script src="./main.js"></script>
+        <script src="./../../main.js"></script>
+    </body>
+</html>

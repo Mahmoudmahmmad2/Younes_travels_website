@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./naga.css">
+    <title>Рыбалка в Красном море | Юнес Туры</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <!-- Заголовок и навигация -->
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <div class="menu">
+                    <div class="links">
+                        <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Мобильный заголовок -->
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link"><a href="../index.html">Направления</a></div>
+                    <div class="link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Плавающие значки контактов -->
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Верхний раздел -->
+        <div class="top-page">
+            <div class="text_title">
+                <h1><span>Рыболовное приключение в Красном море:</span> 4-часовая глубоководная рыбалка</h1> <!-- ИИ изменить -->
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>с самым высоким рейтингом</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star" id="not_checked"></span>
+                    </div>
+                    <div class="rating">
+                        <h2>4.8</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>1 отзыв</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик деятельности: Египет Рыбалка в Красном море</h2> <!-- изменить название тура -->
+                </div>
+            </div>
+
+            <!-- Галерея изображений -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../fishing/WhatsApp Image 2025-09-08 at 06.14.48_01e65057.jpg', 'Red Sea Fishing - Deep Sea Adventure')">
+                        <img src="./../../fishing/WhatsApp%20Image%202025-09-08%20at%2006.14.48_01e65057.jpg" alt="Рыбалка в Красном море – глубоководное приключение" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../fishing/WhatsApp Image 2025-04-24 at 22.03.12_e264bf03.jpg', 'Fishing on the Red Sea Boat')">
+                        <img src="./../../fishing/WhatsApp%20Image%202025-09-08%20at%2006.14.48_67763a9c.jpg" alt="Рыбалка на лодке Красного моря" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../fishing/WhatsApp%20Image%202025-09-08%20at%2006.14.48_81115163.jpg" alt="Ловля барракуды" onclick="openLightbox('image', './../../fishing/WhatsApp Image 2025-09-08 at 06.14.48_81115163.jpg', 'Catching Barracuda')" id="img_three">
+                        <img src="./../../fishing/WhatsApp%20Image%202025-09-08%20at%2006.15.23_b261611a.jpg" alt="Свежий улов дня" onclick="openLightbox('image', './../../fishing/WhatsApp Image 2025-09-08 at 06.15.23_b261611a.jpg', 'Fresh Catch of the Day')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Модальный лайтбокс -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <!-- Введение из 25 слов -->
+            <div class="about">
+                <h4>Насладитесь настоящей рыбалкой в ​​Красном море в кристально чистых водах Хургады, ловя более 35 видов рыб с помощью профессионального снаряжения, освежающих напитков и свежих фруктов на борту нашей специализированной рыбацкой лодки.</h4> <!-- перейти на вступление -->
+            </div>
+
+            <!-- Прайс-бокс -->
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>35€</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span> забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <!-- Об этом билете -->
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отменить за 24 часа заранее</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>Гибкое бронирование, без предоплаты</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span>Продолжительность</span><br>4 часа рыбалки + трансфер</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-headphones"></i>
+                        <h3><span>Гид</span><br>английский, немецкий, русский</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-fish"></i>
+                        <h3><span>Рыболовный фокус</span><br>Чистый опыт рыбалки</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Калькулятор стоимости -->
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Приключение на рыбалке в Красном море:</span> 4-часовая глубоководная рыбалка</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>4 часа</h3></div>
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский, немецкий, русский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Красное море, Хургада</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>Время начала вашей поездки</h1>
+                        <h2 id="time">8:00 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>45$</h2>
+                            <h3 id="members"><span id="adult-count">1</span> взрослый и <span id="young-count">1</span> ребенок</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- Подробный раздел -->
+            <div class="details">
+                <!-- Основные моменты -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы выделить -->
+                        <div class="dtitle">Основные моменты</div>
+                        <div class="info">
+                            <ul>
+                                <li>Эксклюзивный 4-часовой опыт глубоководной рыбалки в Красном море.</li>
+                                <li>Профессиональное рыболовное снаряжение и опытный многоязычный гид по рыбалке.</li>
+                                <li>Холодные освежающие напитки на протяжении всей поездки (вода, соки, безалкогольные напитки)</li>
+                                <li>Свежие сезонные фрукты</li>
+                                <li>Натуральные и искусственные приманки, предназначенные для рыб Красного моря.</li>
+                                <li>Бесплатный трансфер из Хургады, Эль Гуны, Сахл Хашиша, Макади.</li>
+                                <li>Комплексное страхование путешествий</li>
+                                <li>Для сохранения улова предусмотрен ледяной ящик.</li>
+                                <li>Гибкий график: ежедневно с 7:00 до 13:00.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Направления -->
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Направления</div>
+                        <div class="info">
+                            <ul>
+                                <li>Встреча в отеле и трансфер в пристань Хургады.</li>
+                            <li>Сядьте на частную рыбацкую лодку, полностью оснащенную профессиональным снаряжением.</li>
+                            <li>Отправление между <strong>7:00 и 13:00</strong> — вы сами выбираете удобное время.</li>
+                            <li>Head to different fishing spots in the Red Sea to experience a variety of catches.</li>
+                            <li>Наслаждайтесь целенаправленной 4-часовой поездкой на глубоководную рыбалку под руководством экспертов.</li>
+                            <li>Вернитесь в пристань и вернитесь в отель.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Описание -->
+                <div class="detail done">
+                    <div class="content"> <!-- перейти к описанию -->
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Отправьтесь в настоящее глубоководное рыболовное приключение в нетронутых кристально чистых водах Красного моря с нашей специализированной 4-часовой рыболовной экспедицией.</li>
+                                <li>Ваше путешествие начинается с удобного трансфера из вашего отеля в Хургаде, Эль-Гуне, Сахл Хашише или Макади (за Сафагу взимается небольшая дополнительная плата), что обеспечивает комфортный транспорт до нашей пристани.</li>
+                                <li>На борту нашего профессионально оборудованного рыболовного судна с самыми современными рыболовными снастями вы отправитесь к лучшим местам для рыбалки на Красном море.</li>
+                                <li>Наш опытный многоязычный гид-рыболов с многолетним опытом работы на местах знает морские тайны и использует лучшие методы ловли каждого вида рыбы.</li>
+                                <li>Во время специальной 4-часовой рыбалки вы полностью сосредоточитесь на чистой рыбалке без каких-либо других занятий, что обеспечит вам настоящее и продуктивное рыболовное приключение.</li>
+                                <li>You'll have opportunities to catch diverse and exciting Red Sea fish species using various fishing methods including bottom fishing and surface fishing techniques.</li>
+                                <li>На протяжении всей рыбалки вас ждет первоклассное гостеприимство, включая холодные освежающие напитки (вода в бутылках, безалкогольные напитки), свежие сезонные фрукты, которые зарядят вас энергией.</li>
+                                <li>Красное море вокруг Хургады предлагает исключительные возможности для рыбалки: здесь обитает более 35 различных видов рыб: от рыбы-попугая и морского леща до сложной крупной рыбы, такой как барракуда и желтоперый тунец.</li>
+                                <li>В конце вашего рыболовного приключения вернитесь на пристань с прекрасными воспоминаниями и, возможно, свежей рыбой, которую вы поймали собственными руками, прежде чем мы благополучно доставим вас обратно в отель.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Включено -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы включить -->
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансферы из отелей (Хургада, Эль Гуна, Сахл Хашиш, Макади)</li>
+                                <li>Специализированное рыболовное судно с новейшим оборудованием</li>
+                                <li>Профессиональные рыболовные снасти и наживки (натуральные и искусственные)</li>
+                                <li>Экспертный многоязычный гид по рыбалке</li>
+                                <li>Cold beverages variety (water, soft drinks)</li>
+                                <li>Свежие сезонные фрукты</li>
+                                <li>Комплексное страхование путешествия</li>
+                                <li>Ледник для хранения пойманной рыбы</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Не включено -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы не включать -->
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансферы из Сафаги (за дополнительную плату)</li>
+                                <li>Профессиональные фотоуслуги</li>
+                                <li>Основное питание (рекомендуется завтрак перед поездкой)</li>
+                                <li>Сувениры и личные покупки</li>
+                                <li>Благодарности и чаевые</li>
+                                <li>Услуги по чистке и приготовлению рыбы</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Что взять с собой -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы принести -->
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Удобная одежда и подходящая обувь</li>
+                                <li>Солнцезащитный крем, солнцезащитный крем, солнцезащитные очки и шляпа, безопасный для рифов.</li>
+                                <li>Водонепроницаемая камера или GoPro.</li>
+                                <li>Небольшая сумка для личных вещей</li>
+                                <li>Личное полотенце</li>
+                                <li>Легкая куртка для утреннего ветерка</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Что не брать с собой -->
+                <div class="detail">
+                    <div class="content"> <!-- изменить, чтобы не приносить -->
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Еда и напитки на открытом воздухе (предоставляются прохладительные напитки)</li>
+                                <li>Большие сумки или громоздкий багаж</li>
+                                <li>Алкогольные напитки или домашние животные</li>
+                                <li>Ценные драгоценности или крупные суммы денег.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Советы профессионалов -->
+                <div class="detail">
+                    <div class="content"> <!-- перейти на советы -->
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Поездка доступна ежедневно с 7:00 до 13:00 — выберите время.</li>
+                                <li>Внимательно слушайте инструкции руководства по рыбалке для обеспечения безопасности.</li>
+                                <li>Пейте больше жидкости до и во время рыбалки.</li>
+                                <li>Используйте безопасный для рифов солнцезащитный крем для защиты морских экосистем</li>
+                                <li>Во время экскурсий храните ценные вещи в водонепроницаемых сумках.</li>
+                                <li>Наберитесь терпения – рыбалка требует спокойствия и сосредоточенности.</li>
+                                <li>Делайте фотографии, но не забывайте наслаждаться моментом</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Виды рыб -->
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Рыба, которую можно поймать</div>
+                        <div class="info">
+                            <strong>Обычное и гарантированное:</strong>
+                            <ul>
+                                <li>Рыба-попугай, рыба-император, морской лещ, люциан, морской окунь, крупные сардины</li>
+                            </ul>
+                            <strong>Средний размер:</strong>
+                            <ul>
+                                <li>Рыба-хирург, сладкогубка, рыба-кролик, коралловая форель, сиганус, черная рыба</li>
+                            </ul>
+                            <strong>Большой и сложный:</strong>
+                            <ul>
+                                <li>Барракуда, Желтоперый тунец, Янтарный джек, Махи-Махи (дорадо), ваху, рыба-парусник</li>
+                            </ul>
+                            <strong>Нижняя рыба:</strong>
+                            <ul>
+                                <li>Белый окунь, морской окунь, скат, мурена</li>
+                            </ul>
+                            <strong>Декоративные съедобные:</strong>
+                            <ul>
+                                <li>Рыба-ангел, Рыба-хирург, Рыба-бабочка</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- Раздел отзывов -->
+            
+        <!-- Нижний колонтитул -->
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion">
+                    <div class="info">
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3> Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3> +201100077315</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> younesyours7@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>рыболовные приключения</li>
+                            <li>активный отдых на свежем воздухе</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3>Copyright © 2025 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Скрипты -->
+        <script>
+            const header = document.querySelector("header");
+            if (header) {
+                header.style.transition = "all 0.3s ease";
+                let choose = 0;
+                window.onscroll = function () {
+                    if (window.scrollY <= 400 && choose == 0) {
+                        header.style.backgroundColor = "#242424e3";
+                        header.style.position = "absolute";
+                    } else {
+                        choose = 1;
+                        header.style.backgroundColor = "#242424e3";
+                        header.style.position = "fixed";
+                        if (window.scrollY <= 10) choose = 0;
+                    }
+                };
+            }
+
+            function exit() {
+                document.getElementById('pop').style = "width: 0%; overflow:hidden";
+                document.getElementById('container').style = "filter:blur(0px);";
+                setTimeout(() => {
+                    document.getElementById('logo_menu').style = "display: none;";
+                    document.getElementById('links_menu').style = "display: none;";
+                }, 300);
+            }
+
+            function open_pop() {
+                document.getElementById('pop').style = "width:70%; overflow:show";
+                document.getElementById('container').style = "filter:blur(1px);";
+                setTimeout(() => {
+                    document.getElementById('logo_menu').style = "display: block;";
+                    document.getElementById('links_menu').style = "display: block;";
+                });
+
+                document.querySelector('body').addEventListener('click', function (e) {
+                    if (!e.target.closest('.pop_up') && !e.target.classList.contains('menu-style')) {
+                        exit();
+                    }
+                });
+            }
+
+            window.addEventListener("scroll", function () { exit(); });
+            document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+        </script>
+        <script src="./main.js"></script>
+        <script src="./../../main.js"></script>
+    </div></div></body>
+</html>

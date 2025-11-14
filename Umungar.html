@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Тур по острову Умунгар | Юнес Туры</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- ВЕРХНЯЯ ЧАСТЬ -->
+        <div class="top-page">
+            <div class="text_title">
+                <h1><span>Остров Умунгар:</span> 3-часовое приключение в первозданной природе</h1> <!-- ai изменить -> изменить текст в диапазоне на название тура, а другой - на другое предложение вверху -->
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>с самым высоким рейтингом</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star" id="not_checked"></span>
+                    </div>
+                    <div class="rating">
+                        <h2>4.5</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>5 отзывов</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик деятельности: Египет, остров Умунгар</h2> <!-- измените это на название тура -->
+                </div>
+            </div>
+
+            <!-- ГАЛЕРЕЯ ИЗОБРАЖЕНИЙ -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../ummongar/WhatsApp Image 2025-09-08 at 06.29.15_4ba945a0.jpg', 'Umungar Island - Crystal Clear Waters')">
+                        <img src="./../../ummongar/WhatsApp%20Image%202025-09-08%20at%2006.29.15_4ba945a0.jpg" alt="Остров Умунгар – кристально чистая вода" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../ummongar/WhatsApp Image 2025-09-08 at 06.29.51_e75d8a15.jpg', 'Umungar Island - Snorkeling Adventure')">
+                        <img src="./../../ummongar/WhatsApp%20Image%202025-09-08%20at%2006.29.51_e75d8a15.jpg" alt="Остров Умунгар – приключение с подводным плаванием" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../ummongar/WhatsApp%20Image%202025-09-08%20at%2006.30.13_12ccbc21.jpg" alt="Остров Умунгар — кормление рыб" onclick="openLightbox('image', './../../ummongar/WhatsApp Image 2025-09-08 at 06.30.13_12ccbc21.jpg', 'Umungar Island - Fish Feeding')" id="img_three">
+                        <img src="./../../ummongar/WhatsApp%20Image%202025-09-08%20at%2006.32.47_f2111aae.jpg" alt="Остров Умунгар – природный пляж" onclick="openLightbox('image', './../../ummongar/WhatsApp Image 2025-09-08 at 06.32.47_f2111aae.jpg', 'Umungar Island - Natural Beach')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ЛАЙТБОКС МОДАЛЬНЫЙ -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <!-- ВВЕДЕНИЕ -->
+            <div class="about">
+                <h4>Отправьтесь в нетронутую дикую местность острова Умункар — кристально чистые воды, нетронутая природа, приключения с подводным плаванием и рыба, кормящаяся в скрытой жемчужине Красного моря.</h4> <!-- перейти на вступление слова -->
+            </div>
+
+            <!-- ЦЕНА -->
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>35$</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span> забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <!-- ОБ ЭТОМ БИЛЕТЕ -->
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-clock"></i>
+                        <h3><span>Продолжительность</span><br>3 часа на острове + трансфер</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-headphones"></i>
+                        <h3><span>Путеводители</span><br>английский, немецкий, русский</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-wind"></i>
+                        <h3><span>Трансфер с кондиционером</span><br></h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- КАЛЬКУЛЯТОР СТОИМОСТИ -->
+           <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Остров Умунгар:</span> 3-часовое приключение в первозданной природе</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>3 часа</h3></div>
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский, немецкий, русский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Остров Умунгар</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>Время начала вашей поездки</h1>
+                        <h2 id="time">10 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>35$</h2>
+                            <h3 id="members"><span id="adult-count">1</span> взрослый и <span id="young-count">1</span> ребенок</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <!-- РАЗДЕЛ ПОДРОБНОСТИ -->
+            <div class="details">
+                <!-- ОСНОВНЫЕ МОМЕНТЫ -->
+                <div class="detail">
+                    <div class="line"></div>
+
+                    <div class="content"> <!-- измените в нем содержимое, чтобы выделить часть в документе -->
+                        <div class="dtitle">Основные моменты</div>
+                        <div class="info">
+                            <ul>
+                                <li>3-часовой эксклюзивный отдых на острове в нетронутой природе</li>
+                                <li>Свободный выбор подводного плавания с яркой морской жизнью</li>
+                                <li>Интерактивный опыт кормления рыб</li>
+                                <li>Свежие напитки и фрукты подаются на протяжении всей поездки</li>
+                                <li>Трансферы включены (Хургада, Эль Гуна, Сахл Хашиш, Макади)</li>
+                                <li>Профессиональные многоязычные гиды (английский, немецкий, русский)</li>
+                                <li>Полная свобода выбора занятий или просто отдыха</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- НАПРАВЛЕНИЯ -->
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Направления</div>
+                        <div class="info">
+                            <ul>
+                                <ul>
+                            <li>Встреча в отеле и трансфер в пристань Хургады (поездка начинается в выбранное вами время).</li>
+                            <li>Поездка на лодке по Красному морю в направлении <strong>Остров Абу Минкар</strong>.</li>
+                            <li>По прибытии вы получите полную свободу выбора занятий: <ul>
+                                    <li>Отдохните на нетронутом песчаном берегу.</li>
+                                    <li>Искупайтесь в кристально чистой бирюзовой воде.</li>
+                                    <li>Подводное плавание вокруг ярких коралловых рифов, полных морской жизни.</li>
+                                    <li>Попробуйте уникальный опыт кормления рыб в окружении тропических рыб.</li>
+                                </ul>
+                            </li>
+                            <li>Холодные напитки и свежие сезонные фрукты подаются на борту на протяжении всего путешествия.</li>
+                            
+                            <li>После побега с острова вернитесь на лодке к пристани.</li>
+                            <li>Трансфер обратно в отель с незабываемыми воспоминаниями.</li>
+                        </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- ОПИСАНИЕ -->
+                <div class="detail done">
+                    <div class="content"> <!-- измените его содержимое на часть описания в документе -->
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Отправьтесь в необыкновенное трехчасовое приключение на остров Умункар, один из самых сокровенных тайн и самых нетронутых мест Красного моря.</li>
+                                <li>Ваше путешествие начинается с комфортабельного трансфера из вашего отеля в Хургаде, Эль-Гуне, Сахл-Хашише или заливе Макади, за которым следует живописная прогулка на лодке по кристально чистым бирюзовым водам в этот нетронутый рай.</li>
+                                <li>Что делает остров Умункар по-настоящему особенным, так это его нетронутая естественная красота — никаких зонтиков и стульев, только чистая дикая природа и кристально чистая вода.</li>
+                                <li>Вы почувствуете остров именно таким, каким его задумала природа: нетронутые песчаные берега, прозрачная вода и полное спокойствие вдали от людных туристических мест.</li>
+                                <li>Прелесть этого тура заключается в вашей полной свободе выбора.</li>
+                                <li>Хотите заняться подводным плаванием? Погрузитесь в яркий подводный мир, изобилующий разноцветными рыбками и коралловыми образованиями.</li>
+                                <li>Хотите попробовать кормление рыб? Наблюдайте за тем, как тропические рыбы собираются вокруг вас в незабываемом интерактивном приключении.</li>
+                                <li>Предпочитаете просто расслабиться? Найдите идеальное место на природном пляже и окунитесь в умиротворяющую атмосферу острова.</li>
+                                <li>На протяжении всего трехчасового путешествия по острову наслаждайтесь освежающими напитками и свежими сезонными фруктами, которые подает наш внимательный экипаж.</li>
+                                <li>Наши профессиональные многоязычные гиды, говорящие на английском, немецком и русском языках, обеспечат вашу безопасность и комфорт, уважая ваше стремление к независимости и отдыху.</li>
+                                <li>Вернитесь на пристань отдохнувшим и помолодевшим, с воспоминаниями об одном из самых аутентичных и нетронутых островов Красного моря.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- ВКЛЮЧЕНО -->
+                <div class="detail">
+                    <div class="content"> <!-- измените в нем содержимое, чтобы включить часть в документ -->
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансферы из Хургады, Эль Гуны, Сахл Хашиша, Макади Бэй.</li>
+                                <li>3-часовая прогулка на лодке до острова Умункар</li>
+                                <li>Снаряжение для подводного плавания (по желанию)</li>
+                                <li>Опыт кормления рыб</li>
+                                <li>Прохладительные напитки и свежие фрукты на протяжении всей поездки</li>
+                                <li>Профессиональные многоязычные гиды (английский, немецкий, русский)</li>
+                                <li>Страхование путешествий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- НЕ ВКЛЮЧЕНО -->
+                <div class="detail">
+                    <div class="content"> <!-- измените в нем содержимое, чтобы не включать часть в документ -->
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансферы из Сафаги (за дополнительную плату)</li>
+                                <li>Профессиональные фотоуслуги</li>
+                                <li>Личные покупки или сувениры</li>
+                                <li>Чаевые (чаевые)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- ЧТО ПРИВЕСТИ -->
+                <div class="detail">
+                    <div class="content"> <!-- измените в нем содержимое, чтобы включить его в документ -->
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Купальники и полотенце</li>
+                                <li>Солнцезащитный крем, безопасный для рифов</li>
+                                <li>Солнцезащитные очки и защитная шапка</li>
+                                <li>Водонепроницаемая камера или GoPro.</li>
+                                <li>Небольшая сумка для личных вещей</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- ЧТО НЕ БРАТЬ С собой -->
+                <div class="detail">
+                    <div class="content"> <!-- измените в нем содержимое, чтобы не включать его в документ -->
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Еда и напитки на открытом воздухе (закуски предоставляются)</li>
+                                <li>Большие сумки или громоздкий багаж</li>
+                                <li>Алкоголь или домашние животные</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <!-- СОВЕТЫ ПРОФЕССИОНАЛОВ -->
+                <div class="detail">
+                    <div class="content"> <!-- измените его содержимое на часть подсказок в документе -->
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>                                <li>Следуйте инструкциям гида для безопасного подводного плавания.</li>
+                                <li>Соблюдайте водный баланс до и после водных занятий</li>
+                                <li>Используйте безопасный для рифов солнцезащитный крем для защиты морских экосистем</li>
+                                <li>Во время занятий храните ценные вещи в водонепроницаемых сумках.</li>
+                                <li>Уважайте первозданную природу острова</li>
+                                <li>Все мероприятия не являются обязательными — наслаждайтесь в своем собственном темпе</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- РАЗДЕЛ ОБЗОРЫ -->
+           
+
+    </div>
+
+    <footer>
+        <div class="f-container">
+            <div class="logo">
+                <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                <div class="text">
+                    <h2>Юнес </h2>
+                    <h2>туры</h2>
+                </div>
+            </div>
+            <div class="inforamtion">
+                <div class="info">
+                    <div class="i_info">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <h3> Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                    </div>
+                    <div class="i_info">
+                        <i class="fa-solid fa-phone"></i>
+                        <h3> +201100077315</h3>
+                    </div>
+                    <div class="i_info">
+                        <i class="fa-solid fa-envelope"></i>
+                        <h3> younesyours7@gmail.com</h3>
+                    </div>
+                </div>
+                <div class="info">
+                    <h1>страницы</h1>
+                    <ul>
+                        <li>Дом</li>
+                        <li>Услуги</li>
+                        <li>Галерея</li>
+                        <li>Отзывы</li>
+                        <li>О</li>
+                        <li>Контакт</li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h1>Категории</h1>
+                    <ul>
+                        <li>Туры в Египет</li>
+                        <li>Пакеты туров в Египет</li>
+                        <li>прибрежные туры</li>
+                    </ul>
+                </div>
+                <div class="info">
+                    <h1>Подписывайтесь на нас</h1>
+                    <ul>
+                        <li><i class="fa-solid fa-share"></i></li>
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </ul>
+                    <div class="copyright">
+                        <h3>Copyright © 2025 Юнес Турс. Все права защищены.</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) {
+                        choose = 0;
+                    }
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function (e) {
+                if (!e.target.closest('.pop_up') && !e.target.classList.contains('menu-style')) {
+                    exit();
+                }
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+
+        document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+</div></body>
+</html>

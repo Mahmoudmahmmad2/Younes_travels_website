@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./city.css">
+    <link rel="stylesheet" href="./overflow-fix.css">
+    <title>Шарм-эль-Нага Тур|Younes Tours</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-page">
+            <div class="text_title">
+                 <h1><span>Шарм-эль-Нага тур:</span> Откройте для себя самые красивые коралловые рифы и золотой песчаный пляж Хургады.</h1>
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>Рекомендуется</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+                        
+                    </div>
+                    <div class="rating">
+                        <h2>5.0</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>4 отзыва</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик услуг: Египет Шарм-эль-Нага</h2>
+                </div>
+            </div>
+
+            <!-- ===== МАКЕТ ИЗОБРАЖЕНИЯ С МОДАЛЬНЫМ ===== -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/sea-trip8.webp', 'Umungar Island - Crystal Clear Waters')">
+                        <img src="./../../New_Imgs/sea-trip8.webp" alt="Остров Умунгар – кристально чистая вода" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/497498117_3962434473998118_8188283774918108274_n.jpg', 'Umungar Island - Snorkeling Adventure')">
+                        <img src="./../../New_Imgs/497498117_3962434473998118_8188283774918108274_n.jpg" alt="Остров Умунгар – приключение с подводным плаванием" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./naga.jpg" alt="Остров Умунгар — кормление рыб" onclick="openLightbox('image', './naga.jpg', 'Umungar Island - Fish Feeding')" id="img_three">
+                        <img src="./../../New_Imgs/56217-%D8%B4%D8%A7%D8%B7%D8%A6-%D8%B4%D8%B1%D9%85-%D8%A7%D9%84%D9%86%D8%AC%D8%A7.jpg" alt="Остров Умунгар – природный пляж" onclick="openLightbox('image', './../../New_Imgs/56217-شاطئ-شرم-النجا.jpg', 'Umungar Island - Natural Beach')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+            <!-- ===== МОДАЛЬНЫЙ ЛАЙТБОКС ===== -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <div class="about">
+                <h4>Откройте для себя прибрежный рай Шарм-эль-Нага — красивейшие коралловые рифы Хургады, кристально чистую воду, золотой песчаный пляж и открытый обед «шведский стол» в жемчужине Красного моря.</h4>
+            </div>
+
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>50€</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span>
+забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>
+Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-umbrella-beach"></i>
+                        <h3><span>Гибкий график пребывания 3–8 часов</span><br>Оставайся столько, сколько захочешь</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-water"></i>
+                        <h3><span>Лучший коралловый риф в Хургаде.</span><br>Всего в нескольких метрах от берега</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Транспортировка переменного тока включена</span><br>40 км к югу от Хургады</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Тур в Шарм-эль-Нага:</span> Откройте для себя самые красивые коралловые рифы и пляж с золотым песком в Хургаде</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>3–8 часов</h3></div>  
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Шарм-эль-Нага, 40 км к югу от Хургады</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>время начала вашей поездки </h1>
+                        <h2 id="time">7:30 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>55$</h2>
+                            <h3 id="members"><span id="adult-count">2</span> взрослых и <span id="young-count">2</span> детей</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="details">
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Выделять</div>
+                        <div class="info">
+                            <ul>
+                                <li>Гибкий график — оставайтесь от 3 до 8 часов в зависимости от ваших предпочтений.</li>
+                                <li>Здесь находится самый красивый коралловый риф Хургады, расположенный всего в нескольких метрах от берега.</li>
+                                <li>Золотистый песчаный пляж с мелкой и спокойной водой – идеально подходит для семей с детьми.</li>
+                                <li>Luxurious open buffet lunch with a wide variety of local and international dishes.</li>
+                                <li>Всемирно известное место для дайвинга и сноркелинга с яркой морской жизнью.</li>
+                                <li>Множество водных развлечений: водный мотоцикл, банан, парасейлинг, виндсерфинг, каякинг.</li>
+                                <li>Пляжные развлечения: катание на лошадях, катание на верблюдах, волейбол, дартс, петанк.</li>
+                                <li>40 км к югу от Хургады на комфортабельном транспорте с кондиционером.</li>
+                                <li>Профессиональные многоязычные гиды для обеспечения безопасности и помощи.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <!-- <div class="подробно">
+                    <div class="content">
+                        <div class="dtitle">Направления</div>
+                        <div класс="информация">
+                            <ул>
+                                <li>Хургада <span>></span> Пустынная дорога <span>></span> Шарм-эль-Нага Бэй</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div> -->
+                <div class="detail done">
+                    <div class="content">
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Отправьтесь в исключительное путешествие в Шарм-эль-Нагу, одно из самых красивых прибрежных мест Красного моря.</li>
+                                <li>Шарм-эль-Нага — тихая бухта, окруженная скалистыми холмами и песчаным пляжем, ведущим в чистые бирюзовые воды Красного моря. Это природное место идеально подходит для купания и подводного плавания.</li>
+                                <li>Эта тихая бухта находится в 40 км от Хургады и славится своими красивыми коралловыми рифами и кристально чистой водой.</li>
+                                <li>Ваше приключение начнется с комфортабельной часовой поездки на автобусе с кондиционером по захватывающим дух пустынным пейзажам.</li>
+                                <li>По прибытии вы будете поражены золотым песчаным пляжем и защищенным домашним рифом, идеально подходящим для подводного плавания и дайвинга, расположенным всего в нескольких метрах от береговой линии.</li>
+                                <li>Идеально подходит для семей с детьми или тех, кто предпочитает мелководье.</li>
+                                <li>Исследуйте яркие коралловые рифы, разнообразные виды рыб и, возможно, даже встретите морских черепах или скатов — одно из лучших мест в мире для подводного плавания.</li>
+                                <li>Побалуйте себя роскошным открытым обедом «шведский стол» с блюдами местной и интернациональной кухни.</li>
+                                <li>Любители приключений могут насладиться катанием на водных лыжах, парасейлингом, катанием на банане, виндсерфингом, верховой ездой, катанием на верблюдах и пляжным волейболом.</li>
+                                <li>Отдыхаете ли вы на пляже, ныряете в подводный мир или пробуете захватывающие занятия, вы вернетесь с незабываемыми воспоминаниями.</li>
+                                <li>Сочетание нетронутой природы, отличных удобств и гибкого графика делает Шарм-эль-Нагу идеальным местом для отдыха от суеты курортной жизни.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Транспорт с кондиционером туда и обратно от вашего отеля</li>
+                                <li>Входные билеты в Шарм-эль-Нагу</li>
+                                <li>Роскошный открытый обед «шведский стол» (местные и международные блюда)</li>
+                                <li>Бесплатное снаряжение для подводного плавания (маски, ласты, спасательные жилеты, полотенца)</li>
+                                <li>Профессиональный гид по подводному плаванию</li>
+                                <li>Доступ к основным удобствам (туалеты, раздевалки)</li>
+                                <li>Шезлонги и зонтики</li>
+                                <li>Многоязычные гиды</li>
+                                <li>Страхование путешествий</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Платные водные развлечения (гидроцикл, парасейлинг, банан и т.д.)</li>
+                                <li>Верховая езда и езда на верблюде</li>
+                                <li>Дополнительные напитки (помимо основной воды/безалкогольных напитков)</li>
+                                <li>Профессиональные фотоуслуги</li>
+                                <li>Личные покупки или сувениры</li>
+                                <li>Чаевые (чаевые)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Купальники и дополнительная одежда</li>
+                                <li>Большое пляжное полотенце.</li>
+                                <li>Солнцезащитный крем с высокой степенью защиты (SPF 50+).</li>
+                                <li>Солнцезащитные очки и широкополая шляпа</li>
+                                <li>Водонепроницаемая камера или GoPro.</li>
+                                <li>Водная обувь или резиновые сандалии для защиты рифов.</li>
+                                <li>Деньги за дополнительные занятия</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Питание на выезде (предусмотрен обед «шведский стол»)</li>
+                                <li>Ценные или большие сумки</li>
+                                <li>Дорогие украшения или часы.</li>
+                                <li>Алкогольные напитки</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Начните рано (7:00–8:00 утра), чтобы максимально использовать свой день.</li>
+                                <li>Возьмите с собой достаточно денег для дополнительных занятий.</li>
+                                <li>Используйте водостойкий солнцезащитный крем и регулярно наносите его повторно.</li>
+                                <li>Пейте много воды в жаркую погоду.</li>
+                                <li>Уважайте коралловые рифы — никогда не прикасайтесь к ним и не стойте на них.</li>
+                                <li>В целях безопасности следуйте инструкциям гида по подводному плаванию.</li>
+                                <li>Храните ценные вещи в надежном шкафчике.</li>
+                                <li>Наслаждайтесь гибкостью — уходите через 3 часа или оставайтесь на 8.</li>
+                                <li>Попробуйте местные блюда на шведском столе — они восхитительны!</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- ===== РАЗДЕЛ ОБЗОРЫ ===== -->
+            
+        
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion">
+                    <div class="info">
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3>  +201100077315</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> younestours7@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>Пакеты туров в Египет</li>
+                            <li>прибрежные туры</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) choose = 0;
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function(e) {
+                if (!e.target.closest('.pop_up, .menu-style')) exit();
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+        document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+</div></div></body>
+</html>

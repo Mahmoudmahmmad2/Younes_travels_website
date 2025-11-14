@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Сафари на рассвете | Younes Tours</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-page">
+            <div class="text_title">
+                 <h1><span>Приключение на сафари на рассвете:</span> Золотой восход солнца, поездка на джипе, катание на квадроциклах и настоящий бедуинский завтрак</h1>
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>духовный побег</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="rating">
+                        <h2>5.0</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>89 отзывов</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Организатор мероприятий: Сафари на рассвете в Египте</h2>
+                </div>
+            </div>
+
+            <!-- ===== МАКЕТ ИЗОБРАЖЕНИЯ С МОДАЛЬНЫМ ===== -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../IMG/Gallery_imgs/pexels-artem-krapivin-2149275329-30594279.jpg', 'Umungar Island - Crystal Clear Waters')">
+                        <img src="./../../IMG/Gallery_imgs/pexels-artem-krapivin-2149275329-30594279.jpg" alt="Остров Умунгар – кристально чистая вода">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../IMG/Gallery_imgs/WhatsApp Image 2025-04-24 at 22.03.12_e264bf03.jpg', 'Umungar Island - Snorkeling Adventure')">
+                        <img src="./../../IMG/Gallery_imgs/WhatsApp%20Image%202025-04-24%20at%2022.03.12_e264bf03.jpg" alt="Остров Умунгар – приключение с подводным плаванием">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../IMG/Gallery_imgs/Classical%20Tour%20Egypt.jpg" alt="Остров Умунгар — кормление рыб" onclick="openLightbox('image', './../../IMG/Gallery_imgs/Classical Tour Egypt.jpg', 'Umungar Island - Fish Feeding')">
+                        <img src="./../../IMG/Gallery_imgs/My%20photo%20to%20Hurgada%20(egypt).jpg" alt="Остров Умунгар – природный пляж" onclick="openLightbox('image', './../../IMG/Gallery_imgs/My photo to Hurgada (egypt).jpg', 'Umungar Island - Natural Beach')">
+                    </div>
+                </div>
+            </div>в <!-- ===== МОДАЛЬНЫЙ ЛАЙТБОКС ===== -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <div class="about">
+                <h4>Откройте для себя волшебный золотой восход солнца с горных вершин — раннее утреннее приключение на джипах и квадроциклах с настоящим бедуинским завтраком в пустыне Восточной пустыни Египта.</h4>
+            </div>
+
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>75$</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button>Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span>
+забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>
+Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-sun"></i>
+                        <h3><span>Просмотр восхода солнца</span><br>С самых высоких горных вершин пустыни</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Трансфер в отель включен</span><br>Самовывоз из Хургады, Эль Гуны, Сахл Хашиша, Макади.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <h3><span>Бедуинский завтрак</span><br>Здоровая, традиционная еда в атмосфере пустыни</h3>
+                    </div>
+                </div>
+            </div>
+
+            
+                    <div class="date-select">
+                        <h5>выберите дату</h5>
+                        <input type="date" id="dateInput" name="date" required>
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить наличие</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Приключение на сафари на рассвете:</span> Золотой восход солнца, поездка на джипе, катание на квадроциклах и настоящий бедуинский завтрак</h1>
+                    <div class="details">
+                        <div class="time"><i class="fas fa-clock"></i><h3>4 часа</h3></div>  
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Восточная пустыня, Хургада</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="time-selected">
+                        <h1>время начала вашей поездки </h1>
+                        <h2 id="time">5:30 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="bottom">
+                        <div class="price-members">
+                            <h2>75$</h2>
+                            <h3 id="members"><span id="adult-count">1</span> adult &amp; <span id="young-count">1</span> ребенок</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронируйте сейчас</button></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="details">
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Выделять</div>
+                        <div class="info">
+                            <ul>
+                                <li>Захватывающий вид на восход солнца с самых высоких горных вершин пустыни — духовный момент в золотом свете.</li>
+                                <li>Захватывающее сафари на джипах 4x4 по скалистым долинам и горным высокогорьям Восточной пустыни.</li>
+                                <li>Наполненное адреналином приключение на квадроциклах по золотым песчаным дюнам.</li>
+                                <li>Традиционная поездка на верблюде с настоящим бедуинским чаем, финиками и местными сладостями.</li>
+                                <li>Здоровый легкий бедуинский завтрак в спокойной утренней атмосфере пустыни.</li>
+                                <li>Трансферы из отелей включены из Хургады, Эль-Гуны, Сахл Хашиша и Макади Бэй.</li>
+                                <li>Профессиональные гиды, обеспечивающие безопасность и лучшие живописные виды.</li>
+                                <li>Возможна дополнительная верховая езда (за дополнительную плату).</li>
+                                <li>Расширенный вариант сафари на верблюдах для более глубокого исследования пустыни (за дополнительную плату).</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+               
+                <div class="detail done">
+                    <div class="content">
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Отправьтесь в духовный и захватывающий опыт — наблюдайте восход солнца с самых высоких вершин Восточной пустыни Египта, одно из самых красивых природных впечатлений в Хургаде.</li>
+                                <li>Этот тур специально разработан для любителей природы и любителей утренних приключений и длится с раннего рассвета до середины утра.</li>
+                                <li>Ваше путешествие начинается с трансфера из отеля в Хургаде, Эль-Гуне, Сахл-Хашише или Макади-Бей в освежающей атмосфере рассвета (трансфер из Сафаги доступен за дополнительную плату).</li>
+                                <li>Со станции сафари насладитесь захватывающей поездкой на джипе 4х4 через пустынные долины и горные высокогорья к главной точке наблюдения за восходом солнца.</li>
+                                <li>Теплые напитки и природная вода зарядят вас энергией по утрам.</li>
+                                <li>Испытайте уникальный духовный момент, когда золотое солнце поднимается над бескрайней пустыней, окрашивая небо в захватывающие дух цвета.</li>
+                                <li>После восхода солнца насладитесь адреналиновой ездой на квадроциклах по золотым песчаным дюнам.</li>
+                                <li>Посетите настоящую бедуинскую деревню, чтобы отдохнуть, покататься на верблюде, выпить чаю, финики и местные деликатесы.</li>
+                                <li>Завершите вечер полезным легким бедуинским завтраком в безмятежной утренней атмосфере.</li>
+                                <li>Дополнительные улучшения: катание на лошадях или расширенное сафари на верблюдах (за дополнительную плату). Вернитесь в отель отдохнувшим, наполненным позитивной энергией на остаток дня.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Трансферы из отелей (Хургада, Эль Гуна, Сахл Хашиш, Макади Бэй)</li>
+                                <li>Джип-сафари 4x4 по пустынным долинам и горам</li>
+                                <li>Встреча восхода солнца с самых высоких горных вершин</li>
+                                <li>Катание на квадроциклах по песчаным дюнам с защитным снаряжением</li>
+                                <li>Посещение деревни бедуинов и традиционная катание на верблюдах</li>
+                                <li>Настоящий бедуинский чай с финиками и сладостями</li>
+                                <li>Здоровый легкий бедуинский завтрак</li>
+                                <li>Горячие напитки и природная вода на всей территории</li>
+                                <li>Комплексная туристическая страховка</li>
+                                <li>Профессиональные гиды по восходу солнца</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Самовывоз из Сафаги (за дополнительную плату)</li>
+                                <li>Дополнительные или специальные напитки</li>
+                                <li>Дополнительные туры на квадроциклах (предоставляются по запросу)</li>
+                                <li>Профессиональные услуги по фотосъемке восхода солнца</li>
+                                <li>Сувениры или личные покупки</li>
+                                <li>Советы гидам и водителям</li>
+                                <li>Дополнительная верховая езда (за дополнительную плату)</li>
+                                <li>Расширенное сафари на верблюдах (за дополнительную плату)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Теплая одежда для прохладного рассвета, легкая одежда для восхода солнца.</li>
+                                <li>Закрытая спортивная обувь, подходящая для песка и камней.</li>
+                                <li>Камера или телефон с достаточным объемом памяти.</li>
+                                <li>Небольшой герметичный пакет для защиты от песка.</li>
+                                <li>Наличные на дополнительные покупки и фотографии.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Тяжелая пища (завтрак включен)</li>
+                                <li>Большие сумки или тяжелый багаж</li>
+                                <li>Алкогольные напитки или стимуляторы</li>
+                                <li>Очень светлая или неподходящая одежда.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Просыпайтесь пораньше — обеспечьте себе хороший сон накануне вечером.</li>
+                                <li>Перекусите перед отъездом; избегать переедания.</li>
+                                <li>Возьмите с собой теплую куртку — снимайте ее с восходом солнца.</li>
+                                <li>Наслаждайтесь тишиной рассвета — редким медитативным опытом.</li>
+                                <li>Держите камеру наготове — момент восхода мимолетен!</li>
+                                <li>Умеренно пить жидкость — предстоит дальняя дорога.</li>
+                                <li>Спросите у гидов лучшие ракурсы для фото и места для просмотра.</li>
+                                <li>Найдите время подумать — это редкий шанс на мир.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- ===== РАЗДЕЛ ОБЗОРЫ ===== -->
+            
+            <!-- ===== КОНЕЦ ОТЗЫВОВ ===== -->
+
+          
+        
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion
+                    &lt;div class=" info>
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3> Руа Мануэль Родригеш Абреу, 26, 3800-693 Авейру, Португалия</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3> +351 234 567 890</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> 2RzLb@example.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>Пакеты туров в Египет</li>
+                            <li>сафари по пустыне</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            
+        </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) choose = 0;
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function(e) {
+                if (!e.target.closest('.pop_up, .menu-style')) exit();
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+    <script src="https://kit.fontawesome.com/9da8846561.js" crossorigin="anonymous"></script>
+</body>
+</html>

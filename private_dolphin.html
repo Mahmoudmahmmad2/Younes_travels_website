@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Частная поездка в дом дельфинов | Younes Tours</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-page">
+            <div class="text_title">
+                 <h1><span>Частная поездка в Дом Дельфинов:</span> Поплавайте с дикими дельфинами в полной конфиденциальности на собственной лодке.</h1>
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>эксклюзивный</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                    </div>
+                    <div class="rating">
+                        <h2>5.0</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>3 отзыва</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик услуг: Египетский Дом дельфинов</h2>
+                </div>
+            </div>
+
+            <!-- ===== МАКЕТ ИЗОБРАЖЕНИЯ С МОДАЛЬНЫМ ===== -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../dolphin/WhatsApp Image 2025-09-08 at 06.42.53_97ef4321.jpg', 'Umungar Island - Crystal Clear Waters')">
+                        <img src="./../../dolphin/WhatsApp%20Image%202025-09-08%20at%2006.42.53_97ef4321.jpg" alt="Остров Умунгар – кристально чистая вода" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../dolphin/WhatsApp Image 2025-09-08 at 06.42.54_054fdb8f.jpg', 'Umungar Island - Snorkeling Adventure')">
+                        <img src="./../../dolphin/WhatsApp%20Image%202025-09-08%20at%2006.42.54_054fdb8f.jpg" alt="Остров Умунгар – приключение с подводным плаванием" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../dolphin/WhatsApp%20Image%202025-09-08%20at%2006.47.44_2e7e83a9.jpg" alt="Остров Умунгар — кормление рыб" onclick="openLightbox('image', './../../dolphin/WhatsApp Image 2025-09-08 at 06.47.44_2e7e83a9.jpg', 'Umungar Island - Fish Feeding')" id="img_three">
+                        <img src="./../../dolphin/WhatsApp%20Image%202025-09-08%20at%2006.48.23_b90eef06.jpg" alt="Остров Умунгар – природный пляж" onclick="openLightbox('image', './../../dolphin/WhatsApp Image 2025-09-08 at 06.48.23_b90eef06.jpg', 'Umungar Island - Natural Beach')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ===== МОДАЛЬНЫЙ ЛАЙТБОКС ===== -->
+            <div id="lightbox" class="lightbox">
+                <div class="lightbox-content">
+                    <button class="lightbox-close" onclick="closeLightbox()">
+                        <i class="fa-solid fa-times"></i>
+                    </button>
+                    <button class="lightbox-nav prev-btn" onclick="changeLightboxImage(-1)">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </button>
+                    <button class="lightbox-nav next-btn" onclick="changeLightboxImage(1)">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                    <img id="lightbox-image" src="" alt="">
+                </div>
+            </div>
+
+            <div class="about">
+                <h4>Незабываемое и эксклюзивное морское путешествие в самое сердце природной красоты Красного моря. Свободно плавайте с дикими дельфинами, занимайтесь сноркелингом в коралловых садах и наслаждайтесь свежими продуктами на борту своей частной лодки вдали от толпы.</h4>
+            </div>
+
+            <div class="price-box">
+                <div class="price">
+                    <h2>Цена</h2>
+                    <h2>на</h2>
+                    <h2>бронирование</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>«Стоимость бронирования начинается от 70 евро за 10 человек».</span>
+                 </h3>
+                </div>
+            </div>
+
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>
+Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-person-swimming"></i>
+                        <h3><span>Плавайте с дикими дельфинами</span><br>В естественной среде обитания – редкий опыт</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-ship"></i>
+                        <h3><span>Частная лодка</span><br>Исключительно для вашей группы – никаких посторонних</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Бесплатный трансфер из отеля</span><br>Самовывоз из Хургады, Эль Гуны, Макади, Сахл Хашиша.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Частная поездка в дом с дельфинами:</span> Плавайте с дикими дельфинами в полной конфиденциальности на собственной лодке</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>7,5 часов</h3></div>  
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Дом дельфинов, Красное море</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>время начала вашей поездки </h1>
+                        <h2 id="time">8:00 утра</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>130$</h2>
+                            <h3 id="members"><span id="adult-count">2</span> взрослых и <span id="young-count">2</span> детей</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="details">
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Выделять</div>
+                        <div class="info">
+                            <ul>
+                                <li>Поплавайте с дикими дельфинами во всемирно известном районе Дома дельфинов — волшебный опыт в их естественной среде обитания.</li>
+                                <li>Две остановки для подводного плавания на ярких коралловых рифах, полных тропических рыб и морских обитателей.</li>
+                                <li>Наслаждайтесь легким завтраком и свежим обедом «шведский стол», который подается на борту с блюдами местной и интернациональной кухни.</li>
+                                <li>Холодные напитки и свежие сезонные фрукты доступны на протяжении всей поездки, чтобы вы освежились.</li>
+                                <li>Полная конфиденциальность для вашей семьи или друзей — частная лодка исключительно для вашей группы.</li>
+                                <li>Бесплатный трансфер из Хургады, Эль-Гуны, Макади Бэй и Сахл Хашиша.</li>
+                                <li>Профессиональный многоязычный гид (арабский, английский, немецкий, русский) для безопасности и понимания.</li>
+                                <li>Никакой толпы — наслаждайтесь спокойной, комфортной атмосферой вдали от больших туристических групп.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Направления</div>
+                        <div class="info">
+                            <ul>
+                                                          <li><strong>07:00 утра</strong> – Встреча в отеле и трансфер в гавань Хургады.</li>
+                            <li><strong>07:30 утра</strong> – Отправление от пристани в сторону Дома Дельфинов (~1 час).</li>
+                            <li><strong>08:30 утра</strong> – Прибытие в Дом Дельфинов. Наблюдение и купание с дикими дельфинами в их естественной среде обитания (~1 час 30 минут).</li>
+                            <li><strong>09:30 утра</strong> – Легкий завтрак на борту (~30 минут).</li>
+                            <li><strong>10:00 утра</strong> – Сеанс подводного плавания на оживленном рифе (~45 минут).</li>
+                            <li><strong>11:30 утра</strong> – Плавание к следующей локации рифа (~30 минут).</li>
+                            <li><strong>12:00</strong> – Вторая остановка для подводного плавания на другом рифе (~ 45 минут).</li>
+                            <li><strong>12:45</strong> – Вкусный обед «шведский стол» на борту (~1 час).</li>
+                            <li><strong>13:45 – 14:45</strong> – Время отдыха на палубе с прохладительными напитками (~ 1 час).</li>
+                            <li><strong>14:00</strong> – Возвращение в пристань (~1 час).</li>
+                            <li><strong>15:00</strong> – Прибытие в пристань и трансфер обратно в отель.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail done">
+                    <div class="content">
+                        <div class="dtitle">Описание</div>
+                        <div class="info">
+                            <ul class="info-list">
+                                <li>Начните свой день с уникального морского приключения прямо у порога отеля и в кристально чистых водах Красного моря.</li>
+                                <li>Ваша частная лодка отправляется из пристани Хургады в направлении Дома дельфинов — популярного места для наблюдения и купания с дикими дельфинами в их естественной среде обитания.</li>
+                                <li>Ключевое преимущество: ваша частная лодка означает полную конфиденциальность только для вас, вашей семьи или друзей, а не для посторонних.</li>
+                                <li>Путешествие продолжается двумя сеансами подводного плавания в разных местах рифов, где вы погрузитесь в красочные коралловые сады и увидите множество тропических рыб.</li>
+                                <li>Это редкая возможность соединиться с природой, мирно плавая в теплых бирюзовых водах.</li>
+                                <li>На борту вас ждет легкий и вкусный завтрак, а затем свежий обед «шведский стол» с выбором блюд местной и интернациональной кухни.</li>
+                                <li>Холодные напитки и сезонные фрукты подаются в течение всего дня, чтобы вы освежились.</li>
+                                <li>Специально разработанное для семей и друзей, путешествие проходит по хорошо структурированному маршруту, который позволит вам максимально использовать каждый момент — независимо от того, занимаетесь ли вы подводным плаванием, расслабляетесь или просто наслаждаетесь потрясающими видами в полной конфиденциальности.</li>
+                                <li>Путешествие заканчивается вашим возвращением к пристани и комфортабельной высадкой в ​​отеле, наполненным воспоминаниями о дельфинах, приключениях на рифах и чистом блаженстве Красного моря.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Плавание с дикими дельфинами в Dolphin House</li>
+                                <li>Две остановки для подводного плавания у ярких коралловых рифов</li>
+                                <li>Легкий завтрак и свежий обед «шведский стол»</li>
+                                <li>Холодные напитки и свежие фрукты на протяжении всей поездки</li>
+                                <li>Многоязычный гид (арабский, английский, немецкий, русский)</li>
+                                <li>Трансфер из отеля (Хургада и окрестности)</li>
+                                <li>Частная лодка исключительно для вашей группы</li>
+                                <li>Полное страховое покрытие</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Профессиональная фотосъемка (дополнительно)</li>
+                                <li>Личные расходы и сувениры</li>
+                                <li>Чаевые (чаевые)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Купальный костюм, полотенце, солнцезащитные очки, солнцезащитный крем, безопасный для рифов.</li>
+                                <li>Водонепроницаемый чехол для камеры или телефона</li>
+                                <li>Небольшая сумка для личных вещей.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Еда или напитки на открытом воздухе (полное питание предоставляется)</li>
+                                <li>Большие или ненужные сумки (ограниченное место на борту)</li>
+                                <li>Алкоголь или домашние животные</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Сфотографируйтесь, плавая с дельфинами — это момент, который бывает раз в жизни!</li>
+                                <li>Спросите своего гида о морской жизни, с которой вы столкнетесь — они полны знаний.</li>
+                                <li>Эта поездка отлично подходит для всех возрастов — от детей до пожилых людей.</li>
+                                <li>Наслаждайтесь полной конфиденциальностью со своими близкими — на вашей лодке не будет посторонних.</li>
+                                <li>Прибудьте готовыми к 7:30–8:00, чтобы забрать товар без проблем.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- ===== РАЗДЕЛ ОБЗОРЫ ===== -->
+           
+            <!-- ===== КОНЕЦ ОТЗЫВОВ ===== -->
+
+        </div>  
+        
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion">
+                    <div class="info">
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3> Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466.</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3> +201100077315</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> younesyours7@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>Пакеты туров в Египет</li>
+                            <li>прибрежные туры</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) choose = 0;
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function(e) {
+                if (!e.target.closest('.pop_up, .menu-style')) exit();
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+        document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+</div></body>
+</html>

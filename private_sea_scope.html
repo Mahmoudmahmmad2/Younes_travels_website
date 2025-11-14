@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Тур на подводной лодке Sea Scope|Younes Tours</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="icon" href="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(2).png">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <div class="nov-container">
+                <div class="h_btn">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+               <div class="menu">
+                    <div class="links">
+                         <div class="link"><a href="../../index.html">Дом</a></div>
+                        <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                        <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                        <div class="link"><a href="../../about.html">О нас</a></div>
+                        <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                        <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                    </div>
+                    <div class="o-links">
+                        <div class="email" id="email">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="face" id="face">
+                            <i class="fa-brands fa-facebook"></i>
+                        </div>
+                        <div class="insta" id="insta">
+                            <i class="fa-brands fa-instagram"></i>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </header>
+
+        <div class="header-m">
+            <div class="nav-container-m">
+                <div class="logo">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="menu-style" onclick="open_pop()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <div class="pop_up" id="pop">
+                <div class="exit" id="exit" onclick="exit()">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="logo_box-p" id="logo_menu">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview.png" alt="логотип.img">
+                    <h1>Юнес <span>Туры</span></h1>
+                </div>
+                <div class="links_box-p" id="links_menu">
+                    <div class="link"><a href="../../index.html">Дом</a></div>
+                    <div class="link" id="packages-link"><a href="../index.html">Направления</a></div>
+                    <div class="link" id="blog-link"><a href="../../blogs/index.html">Блог</a></div>
+                    <div class="link"><a href="../../about.html">О нас</a></div>
+                    <div class="link"><a href="../../gallery.html">Фотографии</a></div>
+                    <div class="link"><a href="../booking/index.html">Забронируйте сейчас</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact">
+            <div class="desktop">
+                <div class="whatsapp" id="whatsapp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+            <div class="mobile">
+                <div class="whatsapp-m" id="whatsapp-m">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="email-m">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="face-m">
+                    <i class="fa-brands fa-facebook"></i>
+                </div>
+                <div class="insta-m">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="top-page">
+            <div class="text_title">
+                 <h1><span>Экскурсия на подводной лодке Sea Scope:</span> Откройте для себя чудеса Красного моря из панорамной подводной смотровой камеры.</h1>
+            </div>
+            <div class="box">
+                <div class="type">
+                    <h1>любимец семьи</h1>
+                </div>
+                <div class="rating">
+                    <div class="star-rating">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        
+            
+                    </div>
+                    <div class="rating">
+                        <h2>5.0</h2>
+                    </div>
+                </div>
+                <div class="review_count">
+                    <h2>7 отзывов</h2>
+                </div>
+                <div class="point"></div>
+                <div class="place">
+                    <h2>Поставщик услуг: Sea Scope Hurghada</h2>
+                </div>
+            </div>
+
+
+            <!-- ===== МОДАЛЬНЫЙ ЛАЙТБОКС ===== -->
+            <div class="images">
+                <div class="imgs_box">
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/IMG_2362.webp', 'Umungar Island - Crystal Clear Waters')">
+                        <img src="./../../New_Imgs/IMG_2362.webp" alt="Остров Умунгар – кристально чистая вода" id="img_one">
+                    </div>
+                    <div class="img_box" onclick="openLightbox('image', './../../New_Imgs/PHOTO-2024-05-26-12-12-05.jpg', 'Umungar Island - Snorkeling Adventure')">
+                        <img src="./../../New_Imgs/PHOTO-2024-05-26-12-12-05.jpg" alt="Остров Умунгар – приключение с подводным плаванием" id="img_two">
+                    </div>
+                    <div class="img_box">
+                        <img src="./../../New_Imgs/FmXfHzFVRMHwm0s0VrRy7xVRn60Rb96C4Ntxs4tQ.jpg" alt="Остров Умунгар — кормление рыб" onclick="openLightbox('image', './../../New_Imgs/FmXfHzFVRMHwm0s0VrRy7xVRn60Rb96C4Ntxs4tQ.jpg', 'Umungar Island - Fish Feeding')" id="img_three">
+                        <img src="./../../New_Imgs/Semi-Submarine-Tour-2000x-1334.jpg" alt="Остров Умунгар – природный пляж" onclick="openLightbox('image', './../../New_Imgs/Semi-Submarine-Tour-2000x-1334.jpg', 'Umungar Island - Natural Beach')" id="img_four">
+                    </div>
+                </div>
+            </div>
+
+            <div class="about">
+                <h4>Испытайте удивительное подводное приключение на подводной лодке Sea Scope. Откройте для себя чудеса Красного моря и коралловые рифы из панорамной подводной смотровой камеры.</h4>
+            </div>
+
+            <div class="price-box">
+                <div class="price">
+                    <h2>От</h2>
+                    <h2>25€</h2>
+                    <h2>на человека</h2>
+                </div>
+                <div class="btn-check">
+                    <button id="check">Проверить наличие</button>
+                </div>
+                <div class="pay_later">
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h3><span>Забронируйте сейчас и заплатите позже</span>
+забронировать место и ничего не платить сегодня</h3>
+                </div>
+            </div>
+
+            <div class="about-ticket">
+                <h1>Об этом билете</h1>
+                <div class="items">
+                    <div class="item">
+                        <i class="fa-solid fa-calendar-check"></i>
+                        <h3><span>Бесплатная отмена</span><br>Отмените бронирование не позднее, чем за 24 часа, чтобы получить полный возврат средств.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-credit-card"></i>
+                        <h3><span>Забронируйте сейчас и заплатите позже</span><br>
+Сохраняйте гибкость планов поездок — забронируйте место и ничего не платите сегодня.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-water"></i>
+                        <h3><span>30-минутное подводное плавание</span><br>С бесплатной маской, ластами и спасательным жилетом.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-binoculars"></i>
+                        <h3><span>Панорамный просмотр</span><br>Кристально чистый вид на коралловые рифы и тропических рыб.</h3>
+                    </div>
+                    <div class="item">
+                        <i class="fa-solid fa-car"></i>
+                        <h3><span>Бесплатный трансфер из отеля</span><br>Самовывоз из Хургады, Эль Гуны, Макади, Сахл Хашиша, Сафаги.</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="стоимость">
+                <h2>Выберите участников и дату</h2>
+                <h5 style="font-weight: 500;font-size: 15px;">*Дети до 8 лет бесплатно</h5>
+                <div class="cost-box">
+                    
+                    <div class="members">
+                        <h5>количество взрослых</h5>
+                        <select name="участники" id="участники">
+                            <option value="" отключено выбрано скрыто>для взрослых</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="members">
+                        <h5>количество молодняка (5~15)</h5>
+                        <select name="участники" id="молодые">
+                            <option value="" отключено выбрано скрыто>дети (8~13)</option>
+                            <option value="">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="10+">10~15</option>
+                            <option value="15+">15~20</option>
+                            <option value="20+">20~30</option>
+                        </выбрать>
+                    </div>
+                    <div class="date-select">
+                        <h5>выбрать дату</h5>
+                        <input type="date" id="dateInput" name="обязательная дата">
+                    </div>
+                    <div class="btn-check">
+                        <button id="check-availability">Проверить доступность</button>
+                    </div>
+                </div>
+                <div class="result" id="result">
+                    <h1><span>Тур на подводной лодке Sea Scope:</span> Откройте для себя чудеса Красного моря из панорамной подводной смотровой камеры</h1>
+                    <div class="подробнее">
+                        <div class="time"><i class="fas fa-lock"></i><h3>2 часа</h3></div>  
+                        <div class="language"><i class="fas fa-language"></i><h3>Английский</h3></div>
+                        <div class="location"><i class="fas fa-map-marker-alt"></i><a><h3>Марина Sea Scope, Хургада</h3></a></div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="выбранное по времени">
+                        <h1>время начала вашей поездки </h1>
+                        <h2 id="time">14:30</h2>
+                    </div>
+                    <div class="line"></div>
+                    <div class="дно">
+                        <div class="price-members">
+                            <h2>65$</h2>
+                            <h3 id="members"><span id="adult-count">2</span> взрослых и <span id="young-count">2</span> детей</h3>
+                            <h6>Все налоги и сборы включены</h6>
+                        </div>
+                        <div class="btn"><button>Забронировать сейчас</button></div>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="details">
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Выделять</div>
+                        <div class="info">
+                            <ul>
+                                <li>Захватывающий тур на подводной лодке Sea Scope с панорамной подводной смотровой камерой, откуда открывается кристально чистый вид.</li>
+                                <li>30-минутный сеанс подводного плавания у ярких коралловых рифов с бесплатным снаряжением (маска, ласты, спасательный жилет).</li>
+                                <li>Впечатляющие коралловые рифы и редкие тропические рыбы, такие как рыба-ангел, рыба-бабочка и рыба-попугай.</li>
+                                <li>2-часовое путешествие по кристально чистым водам Красного моря с опытными гидами по морской жизни.</li>
+                                <li>Возможности для фотографирования через большие панорамные окна — идеальные воспоминания.</li>
+                                <li>Безопасный семейный отдых, идеально подходящий для детей, пожилых гостей и беременных женщин.</li>
+                                <li>Бесплатные холодные закуски на протяжении всей поездки.</li>
+                                <li>Подробные разъяснения экспертов о морских экосистемах и видах рыб.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Направления</div>
+                        <div class="info">
+
+
+
+                            <ul>
+                                <li>Отправьтесь в незабываемое приключение на Красном море во время знаменитой экскурсии на подводной лодке Sea Scope в Хургаде.</li>
+                                <li>Ваше путешествие начнется с бесплатного трансфера из отеля из любой точки Хургады до пристани, где вас ждет современное судно Sea Scope.</li>
+                                <li>На подводной лодке имеется уникальная панорамная смотровая камера с большими стеклянными окнами, откуда открывается кристально чистый вид на волшебный подводный мир.</li>
+                                <li>После 15 минут плавания вы спуститесь в нижнюю камеру, чтобы понаблюдать за богатой морской экосистемой.</li>
+                                <li>Наслаждайтесь 30-минутным сеансом подводного плавания на нетронутых коралловых рифах — снаряжение предоставляется.</li>
+                                <li>Вернитесь на подводную лодку, чтобы продолжить наблюдение за красочными коралловыми образованиями и редкими тропическими рыбами через панорамные окна.</li>
+                                <li>Опытные морские гиды подробно расскажут о видах рыб и экосистемах, пока вы наслаждаетесь холодными закусками.</li>
+                                <li>Этот опыт идеально подходит для семей, пожилых людей и всех, кто ищет безопасную среду с кондиционером для исследования Красного моря.</li>
+                                <li>Возвращение в марину наполнено незабываемыми воспоминаниями о чарующем подводном мире.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>2-часовой тур на подводной лодке Sea Scope</li>
+                                <li>30-минутный сеанс подводного плавания с бесплатным снаряжением (маска, ласты, спасательный жилет)</li>
+                                <li>Бесплатный трансфер из отеля (Хургада и окрестности)</li>
+                                <li>Профессиональный гид по морской жизни</li>
+                                <li>Подробные объяснения морской экосистемы</li>
+                                <li>Доступ к панорамной смотровой камере для фотосъемки</li>
+                                <li>Бесплатные прохладительные напитки на протяжении всего тура</li>
+                                <li>Комплексное страховое покрытие</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Не включено</div>
+                        <div class="info">
+                            <ul>
+                                <li>Профессиональные фотоуслуги</li>
+                                <li>Легкие закуски</li>
+                                <li>Сувенирные подарки</li>
+                                <li>Чаевые персоналу (чаевые)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что взять с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Фотоаппарат или мобильный телефон для фотосъемки</li>
+                                <li>Удобная одежда по погоде.</li>
+                                <li>Солнцезащитные очки и шляпа</li>
+                                <li>солнцезащитный крем</li>
+                                <li>Небольшая сумка для личных вещей.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Что не брать с собой</div>
+                        <div class="info">
+                            <ul>
+                                <li>Большие полиэтиленовые пакеты</li>
+                                <li>Острые или опасные предметы</li>
+                                <li>Домашние животные</li>
+                                <li>Алкогольные напитки</li>
+                                <li>Внешняя еда</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+                <div class="detail">
+                    <div class="content">
+                        <div class="dtitle">Советы профессионалов</div>
+                        <div class="info">
+                            <ul>
+                                <li>Бронируйте места заранее, особенно в пик сезона.</li>
+                                <li>Следуйте инструкциям гида для лучшего просмотра и безопасности.</li>
+                                <li>Не прикасайтесь к окнам мокрыми руками, чтобы обеспечить хорошую видимость.</li>
+                                <li>Храните ценные вещи в безопасности.</li>
+                                <li>Тур подходит беременным женщинам и детям всех возрастов.</li>
+                                <li>В случае плохой погоды поездка может быть отложена.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                </div>
+            </div>
+
+            <!-- ===== РАЗДЕЛ ОБЗОРЫ ===== -->
+           
+            <!-- ===== КОНЕЦ ОТЗЫВОВ ===== -->
+
+        </div>  
+        
+        <footer>
+            <div class="f-container">
+                <div class="logo">
+                    <img src="./../../IMG/WhatsApp_Image_2025-04-24_at_00.43.15_b0a96fa9-removebg-preview%20(1).png" alt="">
+                    <div class="text">
+                        <h2>Юнес </h2>
+                        <h2>туры</h2>
+                    </div>
+                </div>
+                <div class="inforamtion">
+                    <div class="info">
+                        <div class="i_info">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h3>Шери-стрит, Аль-Хадаба, Хургада, мухафаза Красное море, Египет  
+Координаты: 27.220442, 33.833466. </h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-phone"></i>
+                            <h3> +201100077315</h3>
+                        </div>
+                        <div class="i_info">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h3> younesyours@gmail.com</h3>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <h1>страницы</h1>
+                        <ul>
+                            <li>Дом</li>
+                            <li>Услуги</li>
+                            <li>Галерея</li>
+                            <li>Отзывы</li>
+                            <li>О</li>
+                            <li>Контакт</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Категории</h1>
+                        <ul>
+                            <li>Туры в Египет</li>
+                            <li>Пакеты туров в Египет</li>
+                            <li>прибрежные туры</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h1>Подписывайтесь на нас</h1>
+                        <ul>
+                            <li><i class="fa-solid fa-share"></i></li>
+                            <li><i class="fa-brands fa-facebook"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                        </ul>
+                        <div class="copyright">
+                            <h3> Copyright 2022 Юнес Турс. Все права защищены.</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script>
+        const header = document.querySelector("header");
+        if (header) {
+            header.style.transition = "all 0.3s ease";
+            let choose = 0;
+            window.onscroll = function () {
+                if (window.scrollY <= 400 && choose == 0) {
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "absolute";
+                } else {
+                    choose = 1;
+                    header.style.backgroundColor = "#242424e3";
+                    header.style.position = "fixed";
+                    if (window.scrollY <= 10) choose = 0;
+                }
+            };
+        }
+
+        function exit() {
+            document.getElementById('pop').style = "width: 0%; overflow:hidden";
+            document.getElementById('container').style = "filter:blur(0px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: none;";
+                document.getElementById('links_menu').style = "display: none;";
+                document.getElementById('btn_menu').style = "display: none;";
+            }, 300);
+        }
+
+        function open_pop() {
+            document.getElementById('pop').style = "width:70%; overflow:show";
+            document.getElementById('container').style = "filter:blur(1px);";
+            setTimeout(() => {
+                document.getElementById('logo_menu').style = "display: block;";
+                document.getElementById('links_menu').style = "display: block;";
+                document.getElementById('btn_menu').style = "display: block;";
+            });
+
+            document.querySelector('body').addEventListener('click', function(e) {
+                if (!e.target.closest('.pop_up, .menu-style')) exit();
+            });
+        }
+
+        window.addEventListener("scroll", function () {
+            exit();
+        });
+        document.getElementById("check-availability").addEventListener("click", function () {
+    // Get selected values from form elements
+    const adultSelect = document.getElementById("participants");
+    const youngSelect = document.getElementById("youngs");
+    const dateInput = document.getElementById("dateInput");
+
+    let adults = adultSelect.value;
+    let youngs = youngSelect.value;
+    const date = dateInput.value;
+
+    // Helper function to parse participant values (handles "10+" format)
+    const parseValue = (val) => {
+        if (val.includes("+")) {
+            return parseInt(val) || 0;
+        }
+        return parseInt(val) || 0;
+    };
+
+    // Parse participant counts
+    adults = parseValue(adults);
+    youngs = parseValue(youngs);
+
+    // Calculate total price
+    var adultPrice = 40
+    const youngPrice = adultPrice /2;  // Price per child (free)
+    const total = (adults * adultPrice) + (youngs * youngPrice);
+
+    // Update participant count display
+    document.getElementById("adult-count").textContent = adults + " ";
+    document.getElementById("young-count").textContent = youngs + " ";
+
+    // Update price display
+    const priceElement = document.querySelector(".price-members h2");
+    priceElement.textContent = `$${total}`;
+
+    // Validate date selection and show results
+    if (!date) {
+        // Show error message if no date selected
+        document.getElementById("check-availability").innerText = "Please Try Again";
+        return;
+    } else {
+        // Show success and display booking details
+        document.getElementById("check-availability").innerText = "Availability";
+        document.getElementById("time").innerText = `${date}`;
+        document.getElementById('result').style.display = 'block';
+    }
+});
+    </script>
+    <script src="./main.js"></script>
+    <script src="./../../main.js"></script>
+</div></body>
+</html>
